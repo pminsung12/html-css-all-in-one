@@ -1,62 +1,7 @@
-.profile {
-  width: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.title {
-  font-family: "Times New Roman", Times, serif;
-  color: brown;
-  text-align: center;
-}
-
-.content {
-  text-align: center;
-  font-family: "Times New Roman", Times, serif;
-}
-
-.box {
-  width: 100px;
-  background-color: cadetblue;
-  margin: 10px;
-  padding: 40px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 10px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  box-shadow: 10px 5px 5px black;
-}
-
 .container {
   width: 800px;
-}
-
-.header {
-  width: 100%;
-  height: 100px;
-  background: bisque;
-}
-
-.left-menu {
-  width: 20%;
-  height: 400px;
-  background: cornflowerblue;
-  /* float: left; */
-  display: inline-block;
-  vertical-align: top;
-}
-
-.right {
-  width: 80%;
-  height: 400px;
-  background: coral;
-  /* float: left; */
-  display: inline-block;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .footer {
@@ -64,4 +9,27 @@
   height: 100px;
   background-color: darkolivegreen;
   clear: both;
+}
+
+.blog-content{
+  width: 80%;
+  height: 200px;
+  background: #eee;
+  float:left;
+}
+
+.blog-profile{
+  width: 50px;
+  display:block;
+  float:left;
+}
+
+.blog-img{
+  width:20%;
+  height:200px;
+  float:left;
+}
+
+.blog-name{
+  float:left;
 }
